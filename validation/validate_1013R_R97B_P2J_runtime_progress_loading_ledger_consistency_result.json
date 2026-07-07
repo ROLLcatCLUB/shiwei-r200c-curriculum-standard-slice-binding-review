@@ -1,0 +1,60 @@
+{
+  "stage": "1013R_R97B_P2J_RUNTIME_PROGRESS_LOADING_LEDGER_CONSISTENCY",
+  "status": "PASS",
+  "checks": {
+    "html_has_p2j_metadata": true,
+    "loading_trace_no_legacy_local_ids": true,
+    "loading_trace_uses_backend_event_ids": true,
+    "loading_trace_has_status_sensitive_labels": true,
+    "skipped_runtime_event_is_terminal": true,
+    "skipped_status_renders_done_not_current": true,
+    "model_quality_skipped_in_backend_sample": true,
+    "final_trace_can_complete_after_skipped": true,
+    "raw_chain_of_thought_still_hidden": true
+  },
+  "event_contract": {
+    "frontend_loading_ids": [
+      "upload_input_received",
+      "document_text_extracted",
+      "upload_session_built",
+      "lesson_fields_projected",
+      "process_episodes_normalized",
+      "derivation_spine_built",
+      "art_lesson_kernel_built",
+      "curriculum_standard_candidate_bound",
+      "source_gaps_checked",
+      "model_quality_checked",
+      "art_reasoning_candidate_built",
+      "readonly_preview_ready",
+      "preview_test_record_written"
+    ],
+    "backend_runtime_ids": [
+      "upload_input_received",
+      "document_text_extracted",
+      "upload_session_built",
+      "lesson_fields_projected",
+      "process_episodes_normalized",
+      "derivation_spine_built",
+      "art_lesson_kernel_built",
+      "curriculum_standard_candidate_bound",
+      "source_gaps_checked",
+      "model_quality_checked",
+      "art_reasoning_candidate_built",
+      "readonly_preview_ready",
+      "preview_test_record_written"
+    ]
+  },
+  "sample": {
+    "lesson_title": "青绿色阶练习",
+    "model_quality_event": {
+      "event_id": "model_quality_checked",
+      "label": "已检查模型整理开关",
+      "status": "skipped",
+      "model_called": false
+    }
+  },
+  "notes": {
+    "scope": "Aligns frontend loading trace with the backend runtime event ledger; this is task progress UI, not lesson reasoning.",
+    "streaming": "No SSE endpoint added in this stage."
+  }
+}
