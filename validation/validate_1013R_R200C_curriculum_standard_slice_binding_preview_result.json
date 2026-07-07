@@ -1,0 +1,46 @@
+{
+  "stage": "1013R_R200C_CURRICULUM_STANDARD_SLICE_BINDING_PREVIEW",
+  "valid": true,
+  "checks": {
+    "source_exists": true,
+    "slice_count_positive": true,
+    "candidate_available": true,
+    "candidate_refs_present": true,
+    "target_grade_band_3_5": true,
+    "candidate_only": true,
+    "teacher_review_required": true,
+    "no_provider_call": true,
+    "no_model_call": true,
+    "no_official_claim": true,
+    "no_full_text_prompt_dump": true,
+    "kernel_status_updated": true,
+    "control_status_candidate": true,
+    "standard_ref_ids_present": true,
+    "template_episode_status_updated": true,
+    "current_lesson_status_updated": true
+  },
+  "candidate_count": 6,
+  "candidate_ref_ids": [
+    "ART_CURR_2022_SLICE_0032",
+    "ART_CURR_2022_SLICE_0047",
+    "ART_CURR_2022_SLICE_0011",
+    "ART_CURR_2022_SLICE_0026",
+    "ART_CURR_2022_SLICE_0027",
+    "ART_CURR_2022_SLICE_0050"
+  ],
+  "target_grade_band": "3-5",
+  "source_path": "E:\\codex\\xiaobei-knowledge-base\\_s_samples\\curriculum_standard_0928S\\extracted\\art_curriculum_standard_slices_0928S.jsonl",
+  "boundary": {
+    "preview_only": true,
+    "candidate_only": true,
+    "formal_apply_performed": false,
+    "database_written": false,
+    "memory_written": false,
+    "feishu_written": false,
+    "provider_called": false,
+    "model_called": false,
+    "official_curriculum_claim_created": false,
+    "full_standard_text_dumped_to_prompt": false,
+    "lesson_body_modified": false
+  }
+}
