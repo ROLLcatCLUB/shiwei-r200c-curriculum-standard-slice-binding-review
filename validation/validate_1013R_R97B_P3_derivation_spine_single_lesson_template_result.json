@@ -1,0 +1,199 @@
+{
+  "stage": "1013R_R97B_P3_DERIVATION_SPINE_FOR_SINGLE_LESSON_TEMPLATE",
+  "status": "PASS",
+  "checks": {
+    "html_has_p3_metadata": true,
+    "html_renders_derivation_bridge": true,
+    "html_renders_micro_basis": true,
+    "qinglv_spine_passes": true,
+    "ocean_spine_passes": true,
+    "qinglv_sections_are_thicker": true,
+    "ocean_sections_are_thicker": true,
+    "current_lesson_sections_also_receive_spine": true,
+    "template_embeds_spine": true,
+    "episodes_have_derivation_basis": true,
+    "microsteps_have_derivation_basis": true,
+    "runtime_progress_mentions_spine": true,
+    "no_model_added": true,
+    "preview_only": true
+  },
+  "qinglv": {
+    "spine_status": "PASS_WITH_GAPS",
+    "chain_checks": {
+      "basis_supports_analysis": true,
+      "analysis_supports_goals": true,
+      "goals_support_keypoints": true,
+      "keypoints_support_process": true,
+      "process_supports_microsteps": true,
+      "every_microstep_has_basis": true,
+      "transition_or_pointback_present": true
+    },
+    "section_lengths": {
+      "basis": 2,
+      "analysis": 5,
+      "goals": 3,
+      "keypoints": 2
+    },
+    "current_section_lengths": {
+      "basis": 2,
+      "analysis": 5,
+      "goals": 3,
+      "keypoints": 2
+    },
+    "basis_body": [
+      "本课定位为“第三单元：青绿中国色”中的《青绿色阶练习》。",
+      "本课的学习重心，是让学生先从生活和画面中看见颜色慢慢变化，再选择合适工具试着表现这种过渡，并在交流中说清哪里变得自然。"
+    ],
+    "analysis_body": [
+      "三年级学生通常能从生活经验、直观图片和具体材料出发，说出看到的形象、颜色或材料特征，但把观察发现、方法选择和作品意图连成一段完整说明还不稳定。",
+      "前置经验上，学生可能已经观察过青绿山水、颜色变化或完成过初印象记录；本课要把直观感受推进到色阶、浓淡或渐变控制。",
+      "本课难点在于学生能否理解颜色是逐步过渡的，并在操作中避免直接跳色、平涂或只追求颜色好看。",
+      "技法与表现基础上，学生能进行基本涂画或试色，但水分、浓淡、叠色和色阶连续控制需要分步示范与短练习。",
+      "真实学情缺口：本班学生的前序作品、材料熟练度、表达水平和课堂支持需求，上传原文未充分提供，需教师确认。"
+    ],
+    "goal_body": [
+      "学生能观察生活和画面中的颜色过渡现象，说出渐变是颜色逐步变化的效果。",
+      "学生能选择合适工具尝试表现一组有过渡层次的渐变效果。",
+      "学生能在交流中指出作品哪里体现了渐变，并说明还可以怎样调整。"
+    ],
+    "keypoint_body": [
+      "重点：识别颜色逐步过渡的规律，并用工具把渐变效果表现出来。",
+      "难点：避免直接跳色或平涂，引导学生通过叠色、推开或色阶排列形成自然过渡。"
+    ],
+    "episode_count": 7,
+    "all_episodes_have_derivation_basis": true,
+    "all_microsteps_have_derivation_basis": true,
+    "runtime_event_ids": [
+      "upload_input_received",
+      "upload_session_built",
+      "lesson_fields_projected",
+      "process_episodes_normalized",
+      "derivation_spine_built",
+      "art_lesson_kernel_built",
+      "curriculum_standard_candidate_bound",
+      "source_gaps_checked",
+      "model_quality_checked",
+      "art_reasoning_candidate_built",
+      "readonly_preview_ready"
+    ],
+    "template_has_embedded_spine": true,
+    "template_renderer_policy_marks_spine": true,
+    "boundary": {
+      "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+      "real_upload_entry_preview": true,
+      "temporary_upload_session_only": true,
+      "real_upload_runtime_connected": false,
+      "provider_called": false,
+      "model_called": false,
+      "runtime_call_allowed": false,
+      "write_allowed": false,
+      "database_written": false,
+      "memory_written": false,
+      "vector_index_written": false,
+      "feishu_written": false,
+      "pptx_generated": false,
+      "pdf_docx_generated": false,
+      "formal_apply_performed": false,
+      "teacher_original_overwritten": false,
+      "R21_modified": false,
+      "R36_modified": false,
+      "R95_executed": false,
+      "main_shell_replaced": false,
+      "render_layer_replaced": false,
+      "static_html_created": false,
+      "old_generation_chain_modified": false
+    }
+  },
+  "ocean": {
+    "spine_status": "PASS_WITH_GAPS",
+    "chain_checks": {
+      "basis_supports_analysis": true,
+      "analysis_supports_goals": true,
+      "goals_support_keypoints": true,
+      "keypoints_support_process": true,
+      "process_supports_microsteps": true,
+      "every_microstep_has_basis": true,
+      "transition_or_pointback_present": true
+    },
+    "section_lengths": {
+      "basis": 2,
+      "analysis": 5,
+      "goals": 3,
+      "keypoints": 2
+    },
+    "current_section_lengths": {
+      "basis": 2,
+      "analysis": 5,
+      "goals": 3,
+      "keypoints": 2
+    },
+    "basis_body": [
+      "本课定位为“第二单元 守护生命的摇篮”中的《走进海洋世界》。",
+      "本课的学习重心，是围绕“观察海洋生物图片，说出海洋生物的特征和生存环境，完成\"海洋初印象\"学习单”，让学生先观察或回忆已有经验，再通过方法尝试和作品表达说明自己的发现。"
+    ],
+    "analysis_body": [
+      "三年级学生通常能从生活经验、直观图片和具体材料出发，说出看到的形象、颜色或材料特征，但把观察发现、方法选择和作品意图连成一段完整说明还不稳定。",
+      "前置经验上，学生多半有海洋动物或海洋环境的生活印象；本课要把零散印象推进到特征观察和主题表达。",
+      "本课难点在于学生能否从海洋主题的直观印象中提取形象、环境或保护问题，并转化为作品表达。",
+      "绘画与表达基础上，学生能画出熟悉形象的大致外形，但特征提取、画面组织和用语言说明选择仍需要支架。",
+      "真实学情缺口：本班学生的前序作品、材料熟练度、表达水平和课堂支持需求，上传原文未充分提供，需教师确认。"
+    ],
+    "goal_body": [
+      "学生能围绕任务目标选择材料和方法，完成有明确意图的美术表达。",
+      "学生能说出自己的学习发现、方法选择或作品特点。",
+      "学生能在交流中用课堂证据说明自己的学习成果。"
+    ],
+    "keypoint_body": [
+      "重点：围绕本课任务形成清楚的观察、方法尝试和作品表达。",
+      "难点：让学生说清方法选择和学习成果之间的关系。"
+    ],
+    "episode_count": 6,
+    "all_episodes_have_derivation_basis": true,
+    "all_microsteps_have_derivation_basis": true,
+    "runtime_event_ids": [
+      "upload_input_received",
+      "upload_session_built",
+      "lesson_fields_projected",
+      "process_episodes_normalized",
+      "derivation_spine_built",
+      "art_lesson_kernel_built",
+      "curriculum_standard_candidate_bound",
+      "source_gaps_checked",
+      "model_quality_checked",
+      "art_reasoning_candidate_built",
+      "readonly_preview_ready"
+    ],
+    "template_has_embedded_spine": true,
+    "template_renderer_policy_marks_spine": true,
+    "boundary": {
+      "stage": "1013R_R103_REAL_UPLOAD_ENTRY_PREVIEW",
+      "real_upload_entry_preview": true,
+      "temporary_upload_session_only": true,
+      "real_upload_runtime_connected": false,
+      "provider_called": false,
+      "model_called": false,
+      "runtime_call_allowed": false,
+      "write_allowed": false,
+      "database_written": false,
+      "memory_written": false,
+      "vector_index_written": false,
+      "feishu_written": false,
+      "pptx_generated": false,
+      "pdf_docx_generated": false,
+      "formal_apply_performed": false,
+      "teacher_original_overwritten": false,
+      "R21_modified": false,
+      "R36_modified": false,
+      "R95_executed": false,
+      "main_shell_replaced": false,
+      "render_layer_replaced": false,
+      "static_html_created": false,
+      "old_generation_chain_modified": false
+    }
+  },
+  "notes": {
+    "scope": "Apply R114A/B/C-derived spine into current lesson sections and single_lesson_template.",
+    "not_done": "No curriculum-standard runtime, no provider model call, no formal apply.",
+    "purpose": "Make basis, analysis, goals, keypoints, process episodes, and micro-steps share one verifiable derivation spine."
+  }
+}
