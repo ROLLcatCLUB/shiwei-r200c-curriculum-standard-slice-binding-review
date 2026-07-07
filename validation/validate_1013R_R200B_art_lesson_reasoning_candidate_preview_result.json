@@ -1,0 +1,114 @@
+{
+  "stage": "1013R_R200B_ART_LESSON_REASONING_CANDIDATE_PREVIEW",
+  "status": "PASS",
+  "checks": {
+    "default_response_has_r200b_disabled": true,
+    "model_response_has_r200b_preview": true,
+    "provider_credentials_available_for_live_candidate": true,
+    "provider_called_when_enabled": true,
+    "model_called_when_enabled": true,
+    "candidate_status_success": true,
+    "candidate_available": true,
+    "candidate_has_deepening_sections": true,
+    "candidate_has_episode_microsteps": true,
+    "candidate_is_preview_only": true,
+    "candidate_not_written_to_template_or_current_lesson": true,
+    "response_boundary_counts_r200b_provider_call": true,
+    "runtime_event_mentions_r200b_candidate": true,
+    "html_has_r200b_metadata": true,
+    "html_renders_r200b_candidate_panel": true,
+    "html_loading_trace_has_r200b_event": true,
+    "raw_chain_of_thought_hidden": true
+  },
+  "sample": {
+    "lesson_title": "青绿色阶练习",
+    "candidate_id": "r200b_candidate_432be65e2ad1",
+    "candidate_status": "model_success",
+    "candidate_counts": {
+      "section_items": 16,
+      "episode_reasoning": 7,
+      "micro_step_candidates": 14
+    },
+    "provider_called": true,
+    "model_called": true,
+    "provider_meta": {
+      "provider": "openai_compatible",
+      "model": "MiniMax-M3",
+      "base_url": "https://api.minimaxi.com/v1",
+      "credential_source": "env",
+      "reasoning_split": true,
+      "latency_ms": 68886
+    },
+    "model_payload_shape": {
+      "top_level_keys": [
+        "basis_deepening",
+        "episode_reasoning",
+        "key_difficult_points_deepening",
+        "objectives_deepening",
+        "student_analysis_deepening"
+      ],
+      "lesson_reasoning_keys": [],
+      "first_episode_keys": [
+        "episode_id",
+        "episode_title",
+        "episode_weight_minutes",
+        "micro_steps",
+        "weight_rationale"
+      ],
+      "first_episode_micro_keys": [
+        "evidence_to_watch",
+        "key_talk",
+        "rationale",
+        "source_status",
+        "student_learning",
+        "teacher_organization",
+        "teacher_review_required",
+        "title",
+        "transition_or_pointing",
+        "xiaojiao_reminder"
+      ]
+    },
+    "model_log": {
+      "provider_called": true,
+      "model_called": true,
+      "status": "success",
+      "latency_ms": 68890,
+      "raw_response_saved": false,
+      "reason_code": null,
+      "parser_meta": {
+        "parser_mode": "inline_json_extract",
+        "raw_response_saved": false
+      },
+      "raw_response_length": 12226,
+      "episode_repair_attempted": true,
+      "episode_repair_log": {
+        "provider_called": true,
+        "model_called": true,
+        "status": "success",
+        "latency_ms": 51110,
+        "raw_response_saved": false,
+        "repair_reason": "episode_microsteps_missing",
+        "reason_code": null,
+        "provider_meta": {
+          "provider": "openai_compatible",
+          "model": "MiniMax-M3",
+          "base_url": "https://api.minimaxi.com/v1",
+          "credential_source": "env",
+          "reasoning_split": true,
+          "latency_ms": 51109
+        },
+        "parser_meta": {
+          "parser_mode": "inline_json_extract",
+          "raw_response_saved": false
+        },
+        "raw_response_length": 7489
+      },
+      "episode_repair_applied": true
+    },
+    "record_id": "p2d_20260707T124546Z_b2c5eb3cc9d3"
+  },
+  "notes": {
+    "scope": "R200B uses a provider call only for candidate preview; it does not write or apply the candidate.",
+    "old_model_chains": "validator calls build_readonly_viewmodel with enable_teacher_model=False and enable_art_reasoning_model=True to isolate R200B."
+  }
+}
